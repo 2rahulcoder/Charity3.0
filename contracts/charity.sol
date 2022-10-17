@@ -1,7 +1,7 @@
 //SPDX-License-Identifier: UNLICENSED
 pragma solidity >=0.5.0 < 0.9.0;
 
-contract CrowdFunding{
+contract CharityFun{
     mapping(address=>uint) public contributors; //contributors[msg.sender]=100
     address public manager; 
     uint public minimumContribution;
